@@ -1,0 +1,76 @@
+GMT_timestamp,local_timestamp,trial_file_version,link,calibration,id,age,gender,education,handedness,duration_s,,,,,,
+2021-12-09_05:54:37,2021-12-09_08:54:37,2020-02-18_14:53:12,https://www.testable.org/experiment/3628/918641/start,0.87,p5,29,woman,Bachelor degree,right-handed,5850.575,,,,,,
+,,,,,,,,,,,,,,,,
+rowNo,type,condition1,trialNo,stim1,key,ITI,stimFormat,trialText,keyboard,ITI_ms,ITI_f,ITI_fDuration,timestamp,response,RT,correct
+14,test,learn,1,B1_Identical_Left,2,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5437635,2,5571,1
+15,test,learn,2,B2_Identical_Frontal,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5442556,3,4429,1
+16,test,learn,3,B3_Identical_Right,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5446881,3,3839,1
+21,test,learn,4,D1_Identical_Left,2,500,.jpg,Which face did you just view?,1 2 3,500,30,16.67,5462960,2,2610,1
+22,test,learn,5,D2_Identical_Frontal,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5467981,3,4533,1
+23,test,learn,6,D3_Identical_Right,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5470599,3,2120,1
+28,test,learn,7,J_1_Iden_L,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5484983,3,2194,1
+29,test,learn,8,J_2_Iden_Front,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.65,5487833,3,2363,1
+30,test,learn,9,J_3_Iden_R,1,500,.jpg,Which face did you just view?,1 2 3,500,30,16.65,5490269,1,1950,1
+35,test,learn,10,M_1_Iden_L,2,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5523133,2,6378,1
+36,test,learn,11,M_2_Iden_Front,3,500,.jpg,Which face did you just view?,1 2 3,499,30,16.64,5528484,2,4865,0
+37,test,learn,12,M_3_Iden_R,1,500,.jpg,Which face did you just view?,1 2 3,500,30,16.65,5532440,1,3458,1
+42,test,learn,13,N_1_Iden_L,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.67,5549146,3,2140,1
+43,test,learn,14,N_2_Iden_Front,1,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5552122,1,2483,1
+44,test,learn,15,N_3_Iden_R,3,500,.jpg,Which face did you just view?,1 2 3,499,30,16.65,5554829,3,2208,1
+49,test,learn,16,Z_1_Iden_L,1,500,.jpg,Which face did you just view?,1 2 3,500,30,16.66,5570583,1,1603,1
+50,test,learn,17,Z_2_Iden_Front,3,500,.jpg,Which face did you just view?,1 2 3,500,30,16.67,5572394,3,1316,1
+51,test,learn,18,Z_3_Iden_R,1,500,.jpg,Which face did you just view?,1 2 3,500,30,16.65,5574858,1,1964,1
+55,test,no_noise,19,M_5_Front_Halflit,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5638727,1,6962,1
+56,test,no_noise,20,N_8_13_R_Pro_dark,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5649347,2,10120,1
+57,test,no_noise,21,Z_6_23_Pro_L,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5652814,1,2975,1
+58,test,no_noise,22,D5_Halflit_Frontal,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5658796,2,5493,0
+59,test,no_noise,23,B7_Bottomlit_Frontal,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5662973,2,3689,0
+60,test,no_noise,24,J_6_23_L_Pro,2,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5666957,2,3492,1
+61,test,no_noise,25,D7_Bottomlit_Frontal,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5672423,1,4977,1
+62,test,no_noise,26,Z_5_Front_Half,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5675691,3,2780,1
+63,test,no_noise,27,M_6_23_L_Pro,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5680714,1,4538,0
+64,test,no_noise,28,J_7_Bottom_Lit,3,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5683936,3,2730,1
+65,test,no_noise,29,N_4_23_R_Pro,2,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5687500,1,3079,0
+66,test,no_noise,30,M_8_13_R_Pro_dark,3,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5690981,2,2995,0
+67,test,no_noise,31,J_5_Front_Halflit,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5695249,2,3781,1
+68,test,no_noise,32,N_7_Front_Bot,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5701201,1,5453,1
+69,test,no_noise,33,Z_4_23_Pro_R,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5703491,2,1795,1
+70,test,no_noise,34,D8_13_Profile_R,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5706957,3,2978,0
+71,test,no_noise,35,M_7_Front_Bot,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5710868,2,3424,1
+72,test,no_noise,36,B4_23_pro_ri,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5713398,1,2040,0
+73,test,no_noise,37,D6_23_Profile_L,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5717911,1,4021,1
+74,test,no_noise,38,N_5_Front_Half,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5721890,3,3486,1
+75,test,no_noise,39,B6_23_pro_L,1,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5725594,3,3208,0
+76,test,no_noise,40,Z_8_13_Pro_R_dark,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5729355,2,3271,1
+77,test,no_noise,41,J_4_23_R_Pro,2,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5730981,2,1133,1
+78,test,no_noise,42,B8_13_pro_R_HS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5733107,3,1626,0
+79,test,no_noise,43,M_4_23_R_Pro,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5735964,1,2367,0
+80,test,no_noise,44,J_8_13_r_pro_dark,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5738764,1,2302,1
+81,test,no_noise,45,Z_7_Front_Bot,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5740894,2,1634,1
+82,test,no_noise,46,D4_23_profile_R,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5743754,2,2361,0
+83,test,no_noise,47,N_6_23_L_Pro,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5746452,1,2211,1
+84,test,no_noise,48,B5_halflit_frontal,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5749164,2,2224,0
+86,test,noise,49,Z_12_Front_Noisy,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5773773,2,3611,1
+87,test,noise,50,M_11_23_N_R_Pro,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5776902,1,2642,0
+88,test,noise,51,D10_Noisy_13_Profile_L,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5779508,3,2115,0
+89,test,noise,52,J_12_Frontal_HS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5781977,1,1970,1
+90,test,noise,53,J_11_23_pro_R,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.67,5784697,3,2224,1
+91,test,noise,54,N_9_Front_LS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5789890,3,4702,0
+92,test,noise,55,B12_Noisy_frontal_HS,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5793262,3,2876,0
+93,test,noise,56,M_12_Front_N_HS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5796383,3,2633,0
+94,test,noise,57,D12_Noisy_Frontal_HS,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5798431,1,1549,0
+95,test,noise,58,Z_11_23_Pro_R,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5802112,2,3181,1
+96,test,noise,59,N_10_13_L_Pro_dark,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5805347,2,2735,1
+97,test,noise,60,B9_Noisy_frontal_LS,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5808071,3,2226,0
+98,test,noise,61,M_9_Front_N_LS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5809471,3,912,0
+99,test,noise,62,J_9_N_Frontal_50,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5812389,2,2429,1
+100,test,noise,63,N_12_Front_Noisy,1,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5819900,1,7026,1
+101,test,noise,64,B10_Noisy_13_pro_L,2,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5823811,2,3424,1
+102,test,noise,65,N_11_23_R_Pro,3,500,.jpg,Which face is one of the six target faces?,1 2 3,499,30,16.65,5829016,3,4714,1
+103,test,noise,66,J_10_13_pro_l,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5832438,1,2922,1
+104,test,noise,67,Z_9_Front_Noisy,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5834753,1,1822,0
+105,test,noise,68,D9_Noisy_Frontal_LS,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5837733,2,2487,0
+106,test,noise,69,M_10_N_13_L_Pro_D,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.65,5840592,2,2364,0
+107,test,noise,70,Z_10_13_Pro_L,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5843225,1,2148,1
+108,test,noise,71,B11_Noise_23_pro_R,1,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5845828,1,2102,1
+109,test,noise,72,D11_Noisy_23_profile_R,3,500,.jpg,Which face is one of the six target faces?,1 2 3,500,30,16.66,5848449,3,2126,1
