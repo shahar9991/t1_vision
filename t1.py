@@ -1,47 +1,47 @@
-# import pandas as pd
-# import matplotlib.pyplot as plt
+import pandas as pd
+import matplotlib.pyplot as plt
 
-# # Load and clean the data
-# df = pd.read_csv(r"C:\Users\shaha\Desktop\918641_250318_162800_shsh.csv", skiprows=3)
-# df = df[pd.to_numeric(df['RT'], errors='coerce').notnull()]
-# df['RT'] = df['RT'].astype(float)
-# df['correct'] = pd.to_numeric(df['correct'], errors='coerce')
-# df['trialNo'] = pd.to_numeric(df['trialNo'], errors='coerce')
+# Load and clean the data
+df = pd.read_csv(r"C:\Users\shaha\Desktop\918641_250318_162800_shsh.csv", skiprows=3)
+df = df[pd.to_numeric(df['RT'], errors='coerce').notnull()]
+df['RT'] = df['RT'].astype(float)
+df['correct'] = pd.to_numeric(df['correct'], errors='coerce')
+df['trialNo'] = pd.to_numeric(df['trialNo'], errors='coerce')
 
-# # Calculate stats
-# accuracy = df['correct'].mean() * 100
-# median_rt = df['RT'].median()
-# mean_rt = df['RT'].mean()
+# Calculate stats
+accuracy = df['correct'].mean() * 100
+median_rt = df['RT'].median()
+mean_rt = df['RT'].mean()
 
-# # Prepare precision by condition
-# precision_by_condition = df.groupby('condition1')['correct'].mean()
+# Prepare precision by condition
+precision_by_condition = df.groupby('condition1')['correct'].mean()
 
-# # Create subplots side by side
-# fig, axes = plt.subplots(1, 2, figsize=(20, 8))
+# Create subplots side by side
+fig, axes = plt.subplots(1, 2, figsize=(20, 8))
 
-# # === Plot 1: RT over trials ===
-# axes[0].plot(df['trialNo'].values, df['RT'].values, linewidth=2)
-# axes[0].set_xlabel('Trial Number', fontsize=14)
-# axes[0].set_ylabel('Reaction Time (ms)', fontsize=14)
-# axes[0].set_title('Reaction Time Across Trials', fontsize=18)
-# axes[0].set_xticks(df['trialNo'].values[::2])  # Optional: every 2 trials
-# axes[0].grid(True)
+# === Plot 1: RT over trials ===
+axes[0].plot(df['trialNo'].values, df['RT'].values, linewidth=2)
+axes[0].set_xlabel('Trial Number', fontsize=14)
+axes[0].set_ylabel('Reaction Time (ms)', fontsize=14)
+axes[0].set_title('Reaction Time Across Trials', fontsize=18)
+axes[0].set_xticks(df['trialNo'].values[::2])  # Optional: every 2 trials
+axes[0].grid(True)
 
-# # Add stats text on the first plot
-# stats_text = f"Accuracy: {accuracy:.2f}%\nMedian RT: {median_rt:.2f} ms\nAverage RT: {mean_rt:.2f} ms"
-# axes[0].text(0.01, 0.99, stats_text, transform=axes[0].transAxes,
-#              fontsize=14, verticalalignment='top', bbox=dict(facecolor='white', alpha=0.7))
+# Add stats text on the first plot
+stats_text = f"Accuracy: {accuracy:.2f}%\nMedian RT: {median_rt:.2f} ms\nAverage RT: {mean_rt:.2f} ms"
+axes[0].text(0.01, 0.99, stats_text, transform=axes[0].transAxes,
+             fontsize=14, verticalalignment='top', bbox=dict(facecolor='white', alpha=0.7))
 
-# # === Plot 2: Precision by condition ===
-# axes[1].bar(precision_by_condition.index, precision_by_condition.values, color='skyblue')
-# axes[1].set_xlabel('Trial Difficulty', fontsize=14)
-# axes[1].set_ylabel('Precision', fontsize=14)
-# axes[1].set_title('Precision by Trial Difficulty', fontsize=18)
-# axes[1].set_ylim(0, 1)
-# axes[1].grid(axis='y', linestyle='--', alpha=0.7)
+# === Plot 2: Precision by condition ===
+axes[1].bar(precision_by_condition.index, precision_by_condition.values, color='skyblue')
+axes[1].set_xlabel('Trial Difficulty', fontsize=14)
+axes[1].set_ylabel('Precision', fontsize=14)
+axes[1].set_title('Precision by Trial Difficulty', fontsize=18)
+axes[1].set_ylim(0, 1)
+axes[1].grid(axis='y', linestyle='--', alpha=0.7)
 
-# plt.tight_layout()
-# plt.show()
+plt.tight_layout()
+plt.show()
 # -------------------------------------------------------------------------------------------------------------------------------------
 
 import pandas as pd
